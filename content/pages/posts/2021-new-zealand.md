@@ -1,6 +1,6 @@
 ---
 title: New Zealand
-subtitle: lorem-ipsum
+subtitle: a trip to NZ
 date: '2021-07-18'
 thumb_img_alt: lorem-ipsum
 excerpt: lorem-ipsum
