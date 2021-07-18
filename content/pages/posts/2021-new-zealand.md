@@ -6,7 +6,7 @@ thumb_img_alt: lorem-ipsum
 excerpt: >-
   Heading across the Tasman to Queenstown for two weeks of adventure, fun, and
   exploration
-hide_header: true
+hide_header: false
 seo:
   title: ''
   description: ''
