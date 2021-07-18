@@ -112,6 +112,7 @@ sourceMapping:
     target:
       file: config.yml
       fieldPath: 'params.footer.links[0].style'
+nodeVersion: 12
 models:
   config:
     type: data
@@ -258,6 +259,7 @@ models:
         name: seo
         models:
           - stackbit_page_meta
+        label: Seo
   contact:
     type: page
     urlPath: /contact
@@ -307,11 +309,13 @@ models:
         name: seo
         models:
           - stackbit_page_meta
+        label: Seo
   page:
     type: page
     label: Page
     layout: page
-    exclude: posts/**
+    exclude:
+      - posts/**
     fields:
       - type: string
         name: title
@@ -332,6 +336,7 @@ models:
         name: seo
         models:
           - stackbit_page_meta
+        label: Seo
   post:
     type: page
     urlPath: '/posts/{slug}'
@@ -380,6 +385,7 @@ models:
         name: seo
         models:
           - stackbit_page_meta
+        label: Seo
   action:
     type: object
     label: Action
@@ -457,9 +463,13 @@ models:
         description: >-
           The placeholder for textual field types or default option for select
           field
+        label: Default Value
       - type: list
         name: options
         description: The list of options for select field
+        label: Options
+        items:
+          type: string
       - type: boolean
         name: is_required
         label: Is the field required?
@@ -506,11 +516,15 @@ models:
             - type: string
               name: name
               default: ''
+              label: Name
             - type: string
               name: value
               default: ''
+              label: Value
             - type: string
               name: keyName
               default: name
+              label: Key Name
             - type: boolean
               name: relativeUrl
+              label: Relative Url
