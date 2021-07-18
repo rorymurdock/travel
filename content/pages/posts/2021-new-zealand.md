@@ -3,7 +3,7 @@ title: New Zealand
 subtitle: a trip to NZ
 date: '2021-07-18'
 thumb_img_alt: lorem-ipsum
-excerpt: Heading across the Tasman to Sydney
+excerpt: Heading across the Tasman to Queenstown
 hide_header: false
 seo:
   title: ''
