@@ -7,7 +7,7 @@
         "tagline": "My adventures",
         "logo_img": "/images/royal-ant.svg",
         "logo_img_alt": "Fjord Logo",
-        "background_img": "images/header-bg.jpg",
+        "background_img": "/images/DSC03648.jpg",
         "has_nav": true,
         "nav_links": [
             {
