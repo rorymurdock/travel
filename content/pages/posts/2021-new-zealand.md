@@ -1,6 +1,6 @@
 ---
 title: New Zealand
-subtitle: a trip to NZ
+subtitle: My trip from Sydney to Queenstown
 date: '2021-07-18'
 thumb_img_alt: lorem-ipsum
 excerpt: >-
